@@ -137,22 +137,22 @@ x_zf = p.At(yn); % Defining zero-filled image
 %% cs
 disp('======CS Recon Started======')
 x_cs = cs(yn,p); % cs recon method
-nmse_cs(iter)=10*log10( norm(x(:)-x_cs(:))/norm(x(:))); % calculating nmse
+nmse_cs(iter)=20*log10( norm(x(:)-x_cs(:))/norm(x(:))); % calculating nmse
 ssim_cs(iter)=ssim(real(x_cs),real(x)); % calculating ssim
 %% rr
 disp('======RR Recon Started======')
 x_rr = rr(yn,p); % rr recon method
-nmse_rr(iter)=10*log10( norm(x(:)-x_rr(:))/norm(x(:)) ); % calculating nmse
+nmse_rr(iter)=20*log10( norm(x(:)-x_rr(:))/norm(x(:)) ); % calculating nmse
 ssim_rr(iter)=ssim(real(x_rr),real(x)); % calculating ssim
 %% so
 disp('======SO Recon Started======')
 [x_so, yv] = so(yn,p); % so recon method
-nmse_so(iter)=10*log10( norm(x(:)-x_so(:))/norm(x(:)) ); % calculating nmse
+nmse_so(iter)=20*log10( norm(x(:)-x_so(:))/norm(x(:)) ); % calculating nmse
 ssim_so(iter)=ssim(real(x_so),real(x)); % calculating ssim
 %% core
 disp('======CORe Recon Started======')
 [x_core, yg] = core(yn,p); % core recon method
-nmse_core(iter)= 10*log10( norm(x(:)-x_core(:))/norm(x(:)) ); % calculating nmse
+nmse_core(iter)= 20*log10( norm(x(:)-x_core(:))/norm(x(:)) ); % calculating nmse
 ssim_core(iter)=ssim(real(x_core),real(x)); % calculating ssim
 
 end

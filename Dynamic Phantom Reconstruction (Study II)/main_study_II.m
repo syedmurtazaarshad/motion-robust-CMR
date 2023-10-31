@@ -209,20 +209,20 @@ p.M = [p.N, 4];
 disp('CS Reconstruction Started')
 %x_cs: reconstructed image
 x_cs=cs(y,p);
-nmse_cs_arr(k)=10*log10( norm(x(:)-x_cs(:))/norm(x(:)));
+nmse_cs_arr(k)=20*log10( norm(x(:)-x_cs(:))/norm(x(:)));
 ssim_cs_arr(k)=ssim(real(x_cs),real(x));
 %% RR 
 disp('RR Reconstruction Started')
 %x_rr: reconstructed image
 x_rr = rr(y,p);
-nmse_rr_arr(k)=10*log10( norm(x(:)-x_rr(:))/norm(x(:)) );
+nmse_rr_arr(k)=20*log10( norm(x(:)-x_rr(:))/norm(x(:)) );
 ssim_rr_arr(k)=ssim(real(x_rr),real(x));
 %% SO
 disp('SO Reconstruction Started')
 %x_so: reconstructed image
 %v_so: rejected outliers
 [x_so,v_so]=so(y,p);
-nmse_so_arr(k)=10*log10( norm(x(:)-x_so(:))/norm(x(:)) );
+nmse_so_arr(k)=20*log10( norm(x(:)-x_so(:))/norm(x(:)) );
 ssim_so_arr(k)=ssim(real(x_so),real(x));
 
 %% CORe
@@ -230,7 +230,7 @@ disp('CORe Reconstruction Started')
 %x_core: reconstructed image
 %v_core: rejected outliers
 [x_core,v_core]=core(y,p);
-nmse_core_arr(k)= 10*log10( norm(x(:)-x_core(:))/norm(x(:)) );
+nmse_core_arr(k)= 20*log10( norm(x(:)-x_core(:))/norm(x(:)) );
 ssim_core_arr(k)=ssim(real(x_core),real(x));
 
 
