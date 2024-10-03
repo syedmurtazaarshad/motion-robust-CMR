@@ -6,8 +6,7 @@ This repository contains the implementation of volumetric CMR reconstruction alg
   <h3 align="center">4D flow Imaging</h3>
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/41efc615-892d-4d2f-a1fa-8ce1cd63a603" height="300"/>
-  <em>
+  <img src="https://github.com/user-attachments/assets/41efc615-892d-4d2f-a1fa-8ce1cd63a603" height="400"/>
   <img src="https://github.com/user-attachments/assets/41efc615-892d-4d2f-a1fa-8ce1cd63a603" height="300"/>
   <br>
   <em>Conventional CS Reconstruction</em>
