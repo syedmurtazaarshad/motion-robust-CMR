@@ -3,14 +3,14 @@
 
 This repository contains the implementation of volumetric CMR reconstruction algorithms discussed in the research article, **["Motion-robust free-running volumetric cardiovascular MRI"(doi.org/10.1002/mrm.30123)](http://doi.org/10.1002/mrm.30123 )**, published in Magnetic Resonance in Medicine (MRM) journal. The primary focus of this project is our innovative reconstruction algorithm, CORe (Compressive Recovery with Outlier Rejection), which is specifically designed to suppress motion artifacts.
 <p align="center">
-  <h3 align="center">4D flow Imaging</h3>
+  <h3 align="center">In-magnet Exercise 4D flow Imaging</h3>
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/41efc615-892d-4d2f-a1fa-8ce1cd63a603" height="400"/>
   <img src="https://github.com/user-attachments/assets/41efc615-892d-4d2f-a1fa-8ce1cd63a603" height="400"/>
   <br>
-  <em>Conventional CS Reconstruction</em>
-  <em>Proposed CORe Reconstruction</em>
+  <em style="margin-right: 20px;">Conventional CS Reconstruction</em>
+  <em style="margin-left: 20px;">Proposed CORe Reconstruction</em>
 </p>
 
 ## About the Project
