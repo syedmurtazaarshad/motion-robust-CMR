@@ -10,7 +10,7 @@ This repository contains the implementation of volumetric CMR reconstruction alg
   <img src="https://github.com/user-attachments/assets/41efc615-892d-4d2f-a1fa-8ce1cd63a603" height="400"/>
   <br>
 <em>Conventional CS Reconstruction&ensp;&ensp;&ensp;</em>
-<em>Proposed CORe Reconstruction&ensp;&ensp;&ensp;&ensp;</em>
+<em>&ensp;&ensp;&ensp;&ensp;Proposed CORe Reconstruction</em>
 </p>
 
 
