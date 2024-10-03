@@ -7,8 +7,9 @@ This repository contains the implementation of volumetric CMR reconstruction alg
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/41efc615-892d-4d2f-a1fa-8ce1cd63a603" height="150"/>
-  <em>Conventional CS Reconstruction</em>
   <img src="https://github.com/user-attachments/assets/41efc615-892d-4d2f-a1fa-8ce1cd63a603" height="150"/>
+  <br>
+  <em>Conventional CS Reconstruction</em>
   <em>Proposed CORe Reconstruction</em>
 <!--  <em>Conventional CS Reconstruction</em></span>-->
   <!-- <img src="https://github.com/OSU-MR/motion-robust-CMR/assets/97550963/db49819d-3aa0-4614-ad37-46f904f9bf22" width="200" height="20"/>-->
