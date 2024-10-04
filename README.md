@@ -6,8 +6,9 @@ This repository contains the implementation of volumetric CMR reconstruction alg
   <h3 align="center">In-magnet Exercise Stress 4D flow Imaging</h3>
 
 <p align="center">
-
-  <br>
+<img src="https://github.com/user-attachments/assets/2935d6bf-cbef-4664-b6eb-16e63b2700ba" height="400"/>
+<img src="https://github.com/user-attachments/assets/f979f014-86a6-4605-a66e-3e03f6554ef1" height="400"/>
+<br>
 <em>Conventional CS Reconstruction&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</em>
 <em>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Proposed CORe Reconstruction</em>
 </p>
