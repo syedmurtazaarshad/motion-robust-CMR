@@ -3,39 +3,41 @@
 
 This repository contains the implementation of volumetric CMR reconstruction algorithms discussed in the research article, **["Motion-robust free-running volumetric cardiovascular MRI"](http://doi.org/10.1002/mrm.30123 )**, published in Magnetic Resonance in Medicine (MRM) journal. The primary focus of this project is our innovative reconstruction algorithm, CORe (Compressive Recovery with Outlier Rejection), which is specifically designed to suppress motion artifacts.
 
-<p align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
-  <!-- First column -->
+<div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+
+  <!-- First Column -->
   <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
     <div>
-      <img src="gifs/4D flow rest.gif" height="400" />
-      <div style="text-align: center; margin-top: 5px;">
+      <img src="gifs/4D flow rest.gif" style="max-width: 400px; height: auto;" />
+      <p style="text-align: center; margin-top: 10px;">
         <em>Motion artifact reduction using CORe in 4D flow at rest</em>
-      </div>
+      </p>
     </div>
     <div>
-      <img src="gifs/4D flow exercise.gif" height="400" />
-      <div style="text-align: center; margin-top: 5px;">
+      <img src="gifs/4D flow exercise.gif" style="max-width: 400px; height: auto;" />
+      <p style="text-align: center; margin-top: 10px;">
         <em>Motion artifact reduction using CORe in 4D flow during exercise</em>
-      </div>
+      </p>
     </div>
   </div>
 
-  <!-- Second column -->
+  <!-- Second Column -->
   <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
     <div>
-      <img src="gifs/3D_cine.gif" height="400" />
-      <div style="text-align: center; margin-top: 5px;">
+      <img src="gifs/3D_cine.gif" style="max-width: 400px; height: auto;" />
+      <p style="text-align: center; margin-top: 10px;">
         <em>Motion artifact reduction using CORe in 3D cine</em>
-      </div>
+      </p>
     </div>
     <div>
-      <img src="gifs/exercise.gif" height="400" />
-      <div style="text-align: center; margin-top: 5px;">
+      <img src="gifs/exercise.gif" style="max-width: 400px; height: auto;" />
+      <p style="text-align: center; margin-top: 10px;">
         <em>In-magnet exercise during acquisition</em>
-      </div>
+      </p>
     </div>
   </div>
-</p>
+
+</div>
 
 
 
