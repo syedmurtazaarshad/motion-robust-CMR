@@ -12,7 +12,7 @@ This repository contains the implementation of volumetric CMR reconstruction alg
   <tr>
     <td align="center">
       <img src="gifs/4D flow rest.gif" style="width: 400px; height: 400px;" />
-      <p><em>Motion artifact reduction using CORe against CS in 4D flow at rest</em></p>
+      <p><em>Motion artifact reduction using CORe against CS in 4D flow</em></p>
     </td>
     <td align="center">
       <img src="gifs/3D_cine.gif" style="width: 400px; height: 400px;" />
@@ -27,7 +27,7 @@ This repository contains the implementation of volumetric CMR reconstruction alg
   <tr>
     <td align="center">
       <img src="gifs/4D flow exercise.gif" style="width: 400px; height: 400px;" />
-      <p><em>Motion artifact reduction using CORe against CS in 4D flow during exercise</em></p>
+      <p><em>Motion artifact reduction using CORe against CS in 4D flow</em></p>
     </td>
     <td align="center">
       <img src="gifs/exercise.gif" style="width: 400px; height: 400px;" />
