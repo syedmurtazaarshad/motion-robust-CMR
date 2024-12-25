@@ -6,25 +6,26 @@ This repository contains the implementation of volumetric CMR reconstruction alg
 <table>
   <tr>
     <td align="center">
-      <img src="gifs/4D flow rest.gif" style="max-width: 400px; height: auto;" />
+      <img src="gifs/4D flow rest.gif" style="width: 300px; height: 300px;" />
       <p><em>Motion artifact reduction using CORe in 4D flow at rest</em></p>
     </td>
     <td align="center">
-      <img src="gifs/3D_cine.gif" style="max-width: 400px; height: auto;" />
+      <img src="gifs/3D_cine.gif" style="width: 300px; height: 300px;" />
       <p><em>Motion artifact reduction using CORe in 3D cine</em></p>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="gifs/4D flow exercise.gif" style="max-width: 400px; height: auto;" />
+      <img src="gifs/4D flow exercise.gif" style="width: 300px; height: 300px;" />
       <p><em>Motion artifact reduction using CORe in 4D flow during exercise</em></p>
     </td>
     <td align="center">
-      <img src="gifs/exercise.gif" style="max-width: 400px; height: auto;" />
+      <img src="gifs/exercise.gif" style="width: 300px; height: 300px;" />
       <p><em>In-magnet exercise during acquisition</em></p>
     </td>
   </tr>
 </table>
+
 
 
 
